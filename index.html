@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/index.js"></script>
+    <title>Flying Structures</title>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container" style="display: flex; align-items: center;">
+        <img src="img/logo.svg" style="height: 4em; margin-right: 1.5em;" />
+        <div>
+          <h1 class="title">
+            Flying Structures
+          </h1>
+          <h2 class="subtitle">
+            Dein Heim ist unser Anliegen
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-three-fifths">
+            <img src="img/drawing-blueprint.jpg" />
+          </div>
+          <div class="column">
+            <h5 class="title is-h5">Weil Sie es wert sind</h5>
+            <p style="text-align: justify; margin-bottom: 10px;">
+              Umfrangreiche <b>Marktrecherchen</b> zeigen, dass ein großer
+              Anteil einer unbekannten Menge an nicht klar definierten Objekten
+              in den meisten Fällen zu fragwürdigen Mitteln greifen, um nicht
+              näher definierten Tätigkeiten nachzugehen.
+            </p>
+            <p style="text-align: justify;">
+              Zirka <b>80% aller Eigenheime</b> wurden irgendwann einmal
+              irgendwo errichtet und werden zu einer
+              <i>- derzeit noch ungewissen -</i> Zeit der demütigenden Macht der
+              Natur erliegen.
+            </p>
+            <button
+              class="button is-info is-outlined"
+              style="margin-top: 25px;"
+            >
+              Zu unserem Newsletter
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" style="background: hsl(0, 0%, 98%);">
+      <div class="container" style="text-align: center;">
+        <img src="./img/colorPallet.svg" width="20%" />
+        <h5 class="title is-h5" style="margin-top: 20px;">
+          Simple / Intuitiv / Einfallslos
+        </h5>
+        <p style="text-align: justify;">
+          Unsere hochqualifizierten Spezialisten für
+          <i>Artificial Intelligence</i> verbessern datengetrieben unser
+          einzigartiges interneuronales Netzwerk zur Erfassung Ihrer speziellen
+          Kundenwünsche. Wir glauben daran, dass wir <b>Ihr Potential</b> durch
+          langlebige Prozessoptimierungsverfahren nicht nur ausschöpfen sondern
+          sogar überschöpfen können. <b>Ihr Wohl</b> ist für uns
+          <span style="font-size: 13px;"
+            >- nach Abschluss aller betrügerischen Verträge, die finanzielle und
+            geistige Langzeitschäden mit sich bringen -</span
+          >
+          von ungemessenem Wert. <a>Erfahren Sie mehr</a>
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container" style="text-align: center;">
+        <h5 class="title is-h5">
+          Unser Team
+        </h5>
+        <div class="columns" style="margin-top: 20px;">
+          <div
+            class="column"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <figure class="image is-120x120" style="overflow: hidden;">
+              <img class="is-rounded" src="./img/hubert.jpg" />
+            </figure>
+            <h6 class="title is-h6" style="margin-top: 20px;">
+              Hubert Klammer
+            </h6>
+            <h6 class="subtitle is-6">IT / Sales / Fashion</h6>
+          </div>
+          <div
+            class="column"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <figure class="image is-120x120">
+              <img class="is-rounded" src="./img/melanie.jpg" />
+            </figure>
+            <h6 class="title is-h6" style="margin-top: 20px;">
+              Melanie 🐇 Klammer
+            </h6>
+            <h6 class="subtitle is-6">
+              CEO / Human Potential / Leading Strategy Direction Administration
+            </h6>
+          </div>
+          <div
+            class="column"
+            style="display: flex; align-items: center; flex-direction: column;"
+          >
+            <figure class="image is-120x120">
+              <img class="is-rounded" src="./img/amanda.jpg" />
+            </figure>
+            <h6 class="title is-h6" style="margin-top: 20px;">
+              Amanda Green
+            </h6>
+            <h6 class="subtitle is-6">
+              Design &amp; Innovation
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h5 class="title is-h5">
+          Du willst unser Team bereichern?
+        </h5>
+        <!-- Begin icruiting webform --><iframe
+          src="http://localhost:5000/forms/7b282c01-0a8a-454b-a63b-53b6f63a0595/html"
+          style="width: 100%; border: none;"
+          scroll="no"
+          id="7b282c01-0a8a-454b-a63b-53b6f63a0595-iframe"
+        ></iframe>
+        <script>
+          window.addEventListener("message", (event) => {
+            if (event.origin !== "http://localhost:5000") return;
+            document.getElementById(
+              "7b282c01-0a8a-454b-a63b-53b6f63a0595-iframe"
+            ).style.height = event.data + "px";
+          });
+        </script>
+        <!-- End icruiting webform -->
+        <p>
+          Sende uns deine Bewerbung per E-Mail an
+          <a href="mailto:applications@fstructures.at"
+            >applications@fstructures.at</a
+          >
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Built with ❤️ under the
+          <a href="http://opensource.org/licenses/mit-license.php"
+            >MIT licence</a
+          >
+        </p>
+        <p><a>Datenschutz</a> - <a>AGB</a> - <a>Impressum</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
